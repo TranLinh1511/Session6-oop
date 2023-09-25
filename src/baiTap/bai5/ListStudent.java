@@ -73,17 +73,17 @@ public class ListStudent {
 
     public ListStudent inputData() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập vào mã học viên: ");
+        System.out.println("Nhập vào mã sinh viên: ");
         int idStudent = sc.nextInt();
-        System.out.println("Nhập vào tên học viên: ");
+        System.out.println("Nhập vào tên sinh viên: ");
         String nameStudent = sc.next();
-        System.out.println("Nhập vào tuổi học viên: ");
+        System.out.println("Nhập vào tuổi sinh viên: ");
         int age = sc.nextInt();
-        System.out.println("Nhập vào giới tính học viên: ");
+        System.out.println("Nhập vào giới tính sinh viên: ");
         boolean sex = sc.nextBoolean();
-        System.out.println("Nhập vào địa chỉ học viên: ");
+        System.out.println("Nhập vào địa chỉ sinh viên: ");
         String address = sc.next();
-        System.out.println("Nhập vào số điện thoại học viên: ");
+        System.out.println("Nhập vào số điện thoại sinh viên: ");
         String phoneNumber = sc.next();
         ListStudent s = new ListStudent(idStudent, nameStudent, age, sex, address, phoneNumber);
         return s;
